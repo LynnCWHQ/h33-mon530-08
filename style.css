@@ -5,5 +5,10 @@ img{
 }
 
 body{
-    background-color:beige;
+    background-color:rgb(61, 153, 214);
+}
+
+.description{
+    background-color: white;
+    margin: 100px;
 }

@@ -5,5 +5,17 @@ img{
 }
 
 body{
-    background-color:beige;
+    background-color:rgb(12, 222, 250);
+}
+.container{
+    margin:auto;
+    width:60%;
+    height:800px;
+    border-radius:20px;
+    box-shadow:1px 1px 1px black;
+    background-color:bisque;
+    margin-top:100px;
+    text-align:center;
+    color:black;
+    font-family: 'Rubik Burned', cursive;
 }

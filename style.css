@@ -7,6 +7,7 @@ img{
 body{
     background-color:gainsboro;
     background-color:rgb(12, 222, 250);
+    font-family: 'Aboreto', cursive;
 }
 .container{
     margin:auto;
@@ -18,12 +19,50 @@ body{
     margin-top:100px;
     text-align:center;
     color:black;
-    font-family: 'Rubik Burned', cursive;
+    font-family: 'Aboreto', cursive;
     background-color:rgb(61, 153, 214);
 }
 
 .description{
     background-color: white;
-    margin: 100px;
+    margin: 50px;
+    border-radius:20px;
+    padding:15px 15px 15px 15px;
 }
 
+a{
+    color:black;
+}
+
+.flavors{
+    margin-top:75px;
+    width:100%;
+    height:500px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align:center;
+}
+.flavor{
+    margin:5px 50px 50px 50px;
+    font-size:40px;
+
+}
+img{
+    text-align:center;
+    margin:auto;
+}
+
+.title{
+    padding-top:20px;
+}
+button{
+    margin-top:15px;
+    border:1px solid black;
+    border-radius:0px;
+    background-color:transparent;
+
+}
+button:hover{
+    cursor:pointer;
+}
